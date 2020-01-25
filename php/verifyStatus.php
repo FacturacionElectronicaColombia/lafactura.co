@@ -15,7 +15,7 @@
   ];
 
   $api=new LF_API_v200($url,$usuario,$contrasena);
-  $api->send("invoice",json_encode($solicitud,JSON_UNESCAPED_UNICODE),LF_METHOD_POST);
+  $api->send("invoice",json_encode($solicitud,JSON_UNESCAPED_UNICODE),LF_METHOD_GET);
   echo $api->response; //resulado de la peticion en JSON
 
 
