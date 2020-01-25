@@ -5,6 +5,8 @@
   define('LF_METHOD_GET',"GET");
   define('LF_METHOD_DELETE',"DELETE");
 
+  define('LF_SERVICE_INVOICE',"invoice/");
+
   class LF_API_v200 {
       public $error=false;
       public $url,$usr,$pwd,$response;
@@ -29,7 +31,7 @@
             );
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
-            curl_setopt($ch, CURLOPT_URL, $this->url."/".$service."/");
+            curl_setopt($ch, CURLOPT_URL, $this->url."/".$service);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_TIMEOUT, 50); //Espera 50 Secs
             curl_setopt($ch, CURLOPT_POST, false);
