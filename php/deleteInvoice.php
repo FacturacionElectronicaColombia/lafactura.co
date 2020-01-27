@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo genera una nota credito por el valor total de una factura en el sistema 
+  //Este ejemplo genera una nota credito por el valor total de una factura en el sistema
   include_once("API/api.php");
 
   $usuario="elusuario"; //coloca en este punto tu usuario
@@ -23,7 +23,7 @@
   $solicitud=json_encode($solicitud,JSON_UNESCAPED_UNICODE | JSON_HEX_QUOT);
 
   $api=new LF_API_v200($url,$usuario,$contrasena);
-  $api->send(LF_SERVICE_INVOICE,$solicitud,LF_METHOD_DELETE);
+  $api->send(LF_SERVICE_INVOICE,$solicitud,LF_METHOD_DELETE); //metodo DELETE
   echo $api->response; //resulado de la peticion en JSON
 
 

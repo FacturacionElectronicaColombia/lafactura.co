@@ -19,7 +19,7 @@
   $solicitud=json_encode($solicitud,JSON_UNESCAPED_UNICODE | JSON_HEX_QUOT);
 
   $api=new LF_API_v200($url,$usuario,$contrasena);
-  $api->send(LF_SERVICE_INVOICE,$solicitud,LF_METHOD_GET);
+  $api->send(LF_SERVICE_INVOICE,$solicitud,LF_METHOD_GET); //metodo GET
   echo $api->response; //resulado de la peticion en JSON
 
 ?>
