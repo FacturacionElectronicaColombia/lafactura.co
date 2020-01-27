@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo anula factura con una nota credito por el valor total
+  //Este ejemplo genera una nota credito por el valor total de una factura en el sistema
   include_once("API/api.php");
 
   $usuario="elusuario"; //coloca en este punto tu usuario
