@@ -10,7 +10,8 @@
   //aqui se solicita el estado del documento en cuestion -formato arreglo
   $solicitud=[
     "getRanges"=>[
-        "mode"=>"active"
+        "mode"=>"active",
+        "type"=>"invoice"
     ]
   ];
   //convierto a JSON la solicitud
