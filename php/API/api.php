@@ -6,6 +6,7 @@
   define('LF_METHOD_DELETE',"DELETE");
 
   define('LF_SERVICE_INVOICE',"invoice");
+  define('LF_SERVICE_GENERAL',"general");
 
   class LF_API_v200 {
       public $error=false;
