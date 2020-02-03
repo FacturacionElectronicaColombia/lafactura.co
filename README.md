@@ -10,4 +10,5 @@ WIKI del API: https://wiki.lafactura.co<br>
 Nuestra empresa: https://www.the-answer.co
 
 Recuerda que usar nuestra plataforma para hacer pruebas <b>NO</b> tiene ningún costo.<br>
-Simplemente solicítanos tu usuario y contraseña
+Simplemente solicítanos tu usuario y contraseña<br><br>
+Si decides facturar electronicamente con nuestra plataforma, solo se te cobrará cuando yá entres a produción.<br>Antes NO cobramos nada.
