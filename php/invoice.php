@@ -11,8 +11,8 @@
   //aqui se prepara la informacion a ser enviada
   $solicitud=[
     "invoice"=>[
-      "rangeKey"=>"rk-c1cbedeadb62c3546c19a0676cca4cb85",     //llave para el proceso de validacion
-      "issueDate"=>"20200129",                                //fecha de la factura
+      "rangeKey"=>"rk-9334924376729cd05d593184087bf5f8",         //llave para el proceso de validacion
+      "issueDate"=>"20200201",                                //fecha de la factura
       "issueTime"=>"180600",                                  //hora de la factura
       "dueDate"=>"20200229",                                  //fecha del vencimiento
       "note1"=>"CIEN MIL PESOS MONEDA CORRIENTE",             //Valor en letras
@@ -32,8 +32,8 @@
         "totalAmount"=>"150000.00",                           //valor total
         "discountAmount"=>"30000.00",                         //descuentos
         "extraAmount"=>"15000.00",                            //cargos
-        "taxAmount"=>"19000.00",                              //total impuestos
-        "payAmount"=>"154000.00",                             //total a pagar
+        "taxAmount"=>"31050.00",                              //total impuestos
+        "payAmount"=>"166050.00",                             //total a pagar
       ],
       "items"=>[
         [
@@ -66,9 +66,13 @@
           [                                                   //Impuestos del item
             [
               "ID"=>"01",                                     //IVA
-              "taxableAmount"=>"100000.00",                   //monto base
-              "taxAmount"=>"19000.00",                        //impuesto
+              "taxAmount"=>"25650.00",                        //impuesto
               "percent"=>"19.00",                             //porcentaje aplicado
+            ],
+            [
+              "ID"=>"04",
+              "taxAmount"=>"5400.00",
+              "percent"=>"4.00"
             ]
           ]
         ]
