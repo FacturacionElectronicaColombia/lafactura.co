@@ -1,4 +1,11 @@
 <?php
+  // LaFactura.co
+  // Conexion via API
+  //
+  // Ejemplo de solicitud de anulacion de factura en el sistema
+  //
+  // Ultima revisión Feb-05-2020
+
   //Este ejemplo genera una nota credito por el valor total de una factura en el sistema
   include_once("API/api.php");
 

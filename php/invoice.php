@@ -1,4 +1,11 @@
 <?php
+  // LaFactura.co
+  // Conexion via API
+  //
+  // Ejemplo de creacion de una Factura
+  //
+  // Ultima revisión Feb-05-2020
+
   //Este ejemplo crea una factura nacional
   include_once("API/api.php");
 

@@ -1,4 +1,11 @@
 <?php
+  // LaFactura.co
+  // Conexion via API
+  //
+  // Ejemplo de solicitud de eventos de un documento en nuestro sistema
+  //
+  // Ultima revisión Feb-05-2020
+
   //Este ejemplo verifica el estado de un documento en el sistema
 
   include_once("API/api.php");
@@ -9,7 +16,7 @@
 
   $tascode="fc-54984309jtr0ret90jjrg"; //documento a verificar
 
-  //aqui se solicita el estado del documento en cuestion -formato arreglo
+  //aqui se solicita el log de eventos del documento en cuestion -formato arreglo
   $solicitud=[
     "getLog"=>[
         "tascode"=>$tascode

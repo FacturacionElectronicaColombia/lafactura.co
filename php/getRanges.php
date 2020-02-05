@@ -1,4 +1,13 @@
 <?php
+    // LaFactura.co
+    // Conexion via API
+    //
+    // Ejemplo de solicitud de rangos registrados y estado actual de los mismos en el sistema
+    // - Rangos de facturacion / notas crédito / notas débito
+    //
+    // Ultima revisión Feb-05-2020
+
+
     //Este ejemplo recibe todos los rangos disponibles para documentos
 
     include_once("API/api.php");
