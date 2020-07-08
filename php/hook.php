@@ -10,7 +10,7 @@
       //leo la informacion que llega a esta url
       $handler=fopen("php://input","r");
       $info=stream_get_contents($handler);
-      fclose($handler)
+      fclose($handler);
 
       $arreglo=json_decode($info,true); //convierto de JSON a un arreglo
       //Aqui ya puedes utilizar la informacion de la manera
