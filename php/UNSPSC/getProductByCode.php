@@ -2,15 +2,14 @@
     // LaFactura.co
     // Conexion via API
     //
-    // Ejemplo de solicitud de rangos registrados y estado actual de los mismos en el sistema
-    // - Rangos de facturacion / notas crédito / notas débito
+    // Ejemplo de solicitud de descripcion de un producto por código UNSPSC v.14.0.80 en español
     //
-    // Ultima revisión Feb-05-2020
+    // Ultima revisión Julio-24-2020
 
 
     //Este ejemplo recibe todos los rangos disponibles para documentos
 
-    include_once("API/api.php");
+    include_once("../API/api.php");
 
     $usuario="elusuario"; //coloca en este punto tu usuario
     $contrasena="lacontrasena"; //coloca tu contraseña
@@ -18,9 +17,12 @@
 
     //solicita los rangos de documentos
     $solicitud=[
-      "getRanges"=>[
-          "mode"=>"active", //rangos activos o inactivos
-          "type"=>"all" //todos o pueden ser invoice, creditNote, debitNote, all (todos)
+      "UNSPSC"=>[
+          "version"=>"v14.0.80",  //version a ser usada
+          "getProductByCode"=>[ //obtener productos
+            "lang"=>"es", //en español
+            "code"=>"10501601" //codigo del producto
+          ]
       ]
     ];
     //convierto a JSON la solicitud
@@ -29,5 +31,4 @@
     $api=new LF_API_v200($url,$usuario,$contrasena);
     $api->send(LF_SERVICE_GENERAL,$solicitud,LF_METHOD_GET); //metodo GET
     echo $api->response; //resulado de la peticion en JSON
-
 ?>
