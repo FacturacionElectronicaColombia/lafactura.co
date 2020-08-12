@@ -11,7 +11,7 @@
 
   $usuario="elusuario"; //coloca en este punto tu usuario
   $contrasena="lacontrasena"; //coloca tu contraseña
-  $url="https://playground.lafactura.co/api2.1"; //estea esl la URL de acceso a la api
+  $url="https://playground.lafactura.co/api2.0"; //estea esl la URL de acceso a la api
 
   date_default_timezone_set('America/Bogota'); //coloco la hora para colombia
 
@@ -50,6 +50,9 @@
           "description"=>"Lentes TAS SPORT 1",                //Descripcion
           "brand"=>"TAS",                                     //Marca
           "model"=>"SPORT 1",                                 //Modelo
+          "standard"=>"999",                                  //Standard utilizado
+          "agency"=>"991",                                    //Agencia del standard
+          "code"=>"1000",                                     //Codigo del producto
           "allowance"=>
           [
             [

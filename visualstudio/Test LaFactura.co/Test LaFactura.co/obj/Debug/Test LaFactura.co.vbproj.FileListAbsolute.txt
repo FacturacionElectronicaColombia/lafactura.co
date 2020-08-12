@@ -1,0 +1,11 @@
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\bin\Debug\Test LaFactura.co.exe.config
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test LaFactura.co.vbprojResolveAssemblyReference.cache
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test_LaFactura.co.Form1.resources
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test_LaFactura.co.Resources.resources
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test LaFactura.co.vbproj.GenerateResource.Cache
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test LaFactura.co.xml
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\bin\Debug\Test LaFactura.co.exe
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\bin\Debug\Test LaFactura.co.pdb
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\bin\Debug\Test LaFactura.co.xml
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test LaFactura.co.exe
+c:\users\srvadmin\documents\visual studio 2015\Projects\Test LaFactura.co\Test LaFactura.co\obj\Debug\Test LaFactura.co.pdb
