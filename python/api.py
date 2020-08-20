@@ -1,8 +1,8 @@
 import requests
 import json
 
-LF_GENERAL="/general/index.php"
-LF_INVOICE="/invoice/index.php"
+LF_GENERAL="/general/"
+LF_INVOICE="/invoice/"
 
 def getInfo_LF(url, service, method, usr, pwd, info):
   return requests.request(method,url+service,json=info,headers={"content-type": "application/json"},auth=(usr,pwd))
