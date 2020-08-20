@@ -9,8 +9,11 @@ def getInfo_LF(url, service, method, usr, pwd, info):
 # Funcion para obtener rangos
 def getRanges(url,usr,pwd,info):
     return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
-# Funcion para obtener rangos
+# Funcion para enviar emails
 def getEmail(url,usr,pwd,info):
+    return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
+#Envio de email a cliente
+def sendEmail(url,usr,pwd,info):
     return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
 # Funcion para enviar una factura
 def invoice(url,usr,pwd,info):
