@@ -4,13 +4,14 @@
   include_once("API/api.php");
 
   $usuario="elusuario"; //coloca en este punto tu usuario
-  $contrasena="lacontrasena"; //coloca tu contraseña
+  $contrasena="secretas"; //coloca tu contraseña
   $url="https://playground.lafactura.co/api2.0"; //estea esl la URL de acceso a la api
 
-  //solicita envio de correo
+  //solicita Registro Mercantil del RUES
   $solicitud=[
-    "getEmail"=>[
-        "id"=>"900900900" //documento en cuestion
+    "getTRM"=>[
+        "getInfo"=>"please" //solicita las TRM recientes
+        ]
     ]
   ];
   //convierto a JSON la solicitud

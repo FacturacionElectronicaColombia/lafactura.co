@@ -13,7 +13,10 @@ def getRanges(url,usr,pwd,info):
 def getEmail(url,usr,pwd,info):
     return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
 # Funcion para obtuener el registro mercantl del RUES
-def registroMercantil(url,usr,pwd,info):
+def getRUESRM(url,usr,pwd,info):
+    return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
+# Funcion para buscar por nombre en el RUES
+def getRUESSearch(url,usr,pwd,info):
     return getInfo_LF(url,LF_GENERAL,"GET",usr,pwd,info)
 #Envio de email a cliente
 def sendEmail(url,usr,pwd,info):
