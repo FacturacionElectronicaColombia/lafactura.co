@@ -3,10 +3,6 @@
   // Conexion via API
   //
   // Ejemplo de solicitud de eventos de un documento en nuestro sistema
-  //
-  // Ultima revisión Feb-05-2020
-
-  //Este ejemplo verifica el estado de un documento en el sistema
 
   include_once("API/api.php");
 

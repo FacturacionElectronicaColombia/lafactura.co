@@ -3,8 +3,7 @@
   // Conexion via API
   //
   // Ejemplo de solicitud de reenvio de documento a un correo electronico
-  //
-  // Ultima revisión Feb-05-2020
+  
 
   //Este ejemplo permite reenviar un correo con el documento solicitado
 

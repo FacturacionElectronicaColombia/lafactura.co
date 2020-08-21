@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo permite reenviar un correo con el documento solicitado
+  //Este ejemplo permite buscar una empresa por nombre en el RUES
 
   include_once("API/api.php");
 

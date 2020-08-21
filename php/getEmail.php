@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo permite reenviar un correo con el documento solicitado
+  //Este ejemplo permite conocer el correo electronico habilitado para facturacion electronica ante la DIAN
 
   include_once("API/api.php");
 
@@ -10,7 +10,7 @@
   //solicita envio de correo
   $solicitud=[
     "getEmail"=>[
-        "id"=>"900900900" //documento en cuestion
+        "id"=>"900900900" //documento NIT / CC del que deseamos conocer el correo
     ]
   ];
   //convierto a JSON la solicitud

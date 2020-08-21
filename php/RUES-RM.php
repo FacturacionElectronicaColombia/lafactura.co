@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo permite reenviar un correo con el documento solicitado
+  //Este ejemplo permite tomar la informacion del rues por NIT
 
   include_once("API/api.php");
 

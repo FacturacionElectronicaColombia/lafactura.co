@@ -1,5 +1,5 @@
 <?php
-  //Este ejemplo permite reenviar un correo con el documento solicitado
+  //Este ejemplo permite conocer la TRM actual y las últimas 30
 
   include_once("API/api.php");
 
