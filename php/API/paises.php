@@ -1,4 +1,4 @@
-<?
+<?php
 //paises soportados por el sistema
 $paises = [
   'CO' => 'Colombia',
